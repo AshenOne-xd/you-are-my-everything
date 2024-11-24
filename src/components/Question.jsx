@@ -40,6 +40,10 @@ function Question() {
     };
   }, [heartsActive]);
 
+  const popUp = () => {
+    alert("Not this the other yes T_T");
+  }
+
   function mouseOver() {
     setx(Math.random() * 80 + 10); // Ensure x is between 10% and 90%
     sety(Math.random() * 80 + 10); // Ensure y is between 10% and 90%
@@ -90,8 +94,8 @@ function Question() {
             <div className='images'>
               
             </div>
-              <p className="pre-pre-valentine"> you know i never stopped thinking bout you  during all those days</p>
-              <p className="pre-valentine">Do you love me on same caliber? like fr fr? </p>
+              <p className="pre-pre-valentine"> i never stopped thinking bout you during all those days</p>
+              <p className="pre-valentine">Do you <s>love</s> me on same caliber? like fr fr? </p>
               <p className="valentine"></p>
               <form>
                 <button
@@ -107,14 +111,14 @@ function Question() {
                 style={noStyle}
                 onClick={popUp}
               >
-                no
+                yes
               </button>
             </>
           ) : (
             <div>
             <p className="thank-you-text">I'LL CRY FS 😭</p>
             <p className="thank-you-text-2"> </p>
-            <p className="thank-you-text-3">Here some flowers since you didn't let me buy you anything </p>
+            <p className="thank-you-text-3">Here's some flowers since you didn't let me buy you anything </p>
             </div>
           )}
         </motion.div>
