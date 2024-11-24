@@ -40,10 +40,6 @@ function Question() {
     };
   }, [heartsActive]);
 
-  const popUp = () => {
-    alert("really? :(");
-  }
-
   function mouseOver() {
     setx(Math.random() * 80 + 10); // Ensure x is between 10% and 90%
     sety(Math.random() * 80 + 10); // Ensure y is between 10% and 90%
@@ -117,8 +113,8 @@ function Question() {
           ) : (
             <div>
             <p className="thank-you-text">I'LL CRY FS 😭</p>
-            <p className="thank-you-text-2">i love you more tho</p>
-            <p className="thank-you-text-3">Here's some flowers since you didn't let me buy you anything </p>
+            <p className="thank-you-text-2"> </p>
+            <p className="thank-you-text-3">Here some flowers since you didn't let me buy you anything </p>
             </div>
           )}
         </motion.div>
