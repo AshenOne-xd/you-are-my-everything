@@ -94,8 +94,8 @@ function Question() {
             <div className='images'>
               
             </div>
-              <p className="pre-pre-valentine"> you and never stopped thinking bout you all those days</p>
-              <p className="pre-valentine">Do you <s>love</s> me on same caliber? like fr fr? you weren't lying?</p>
+              <p className="pre-pre-valentine"> you know i never stopped thinking bout you  during all those days</p>
+              <p className="pre-valentine">Do you love me on same caliber? like fr fr? you weren't lying?</p>
               <p className="valentine"></p>
               <form>
                 <button
